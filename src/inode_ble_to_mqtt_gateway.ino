@@ -183,7 +183,7 @@ void loop() {
             }
         } else {
             RGB.color(255, 0, 0);
-            Log.info("Device with MAC: " + device + " is not a Inode hardware");
+            Log.info("Device with MAC: " + device + " is not an Inode hardware");
         }
     }  
     delay(100);
